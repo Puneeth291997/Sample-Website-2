@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SPJIMR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+ <style type="text/css">
+ .main {
+  padding-left: 25px;
+  height:290px;
+  color: white;
+  background:  linear-gradient(89.33deg,#8360c3 -13.85%,#2ebf91 128.15%);
+
+}
+.bg4 {
+  padding: 25px;
+  height:350px;
+  color: white;
+  background: #fff;
+
+}
+ .bg2 {
+  padding: 25px;
+  height:450px;
+  color: white;
+  background: #f9f9f9;
+
+}
+.bg3 {
+  padding: 25px;
+  height:950px;
+  
+  background: #fff;
+
+}
+h1{
+	padding: 30px 30px;
+}
+ p{
+	color: black;
+}
+h4{
+font-size: 28px;
+color: black;
+padding: 0 0 16px 0;
+}
+.boxes2{
+width: 150px;
+margin-bottom: 30px;
+padding: 0 0 0 0;
+display: block;
+possition: relative;
+border-top: 4px solid #8360c3;
+}
+.boxes3
+{
+ background-color: #ebf1f8;
+  width: 100%;
+  padding: 30px;
+  margin: 60px;
+text-align: center}
+h6{
+color: black;
+}
+.boxes {
+	
+  width: 180px;
+  border-bottom: 3px solid #8360c3;
+  padding: 10px;
+  margin: 10px 90px;
+text-align: center
+}
+
+.price1 {
+	height: 300px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: #fff;
+ 
+  border-top: 5px solid #8360c3;
+  border-radius: 8px;
+  box-shadow: 0px 9px 12px 0px rgba(0,0,0,0.2)
+ 
+}
+
+.price1:hover {
+  box-shadow: 2px 9px 12px 9px rgba(0,0,0.2,0.2)
+
+}
+p{padding: 10px;
+
+text-align: center;}
+.nav-link {
+ text-decoration: none;
+  color:white;
+  
+}
+.nav{
+padding-right: 150px;
+}
+
+.nav-item:hover {border-bottom: 2px solid blue; 
+
+ }
+ .footer {
+  padding: 25px;
+  background-color: black;
+  color: white;
+}
+.footer1 {
+  
+  
+  background: #0b0b0c none repeat center;
+  color: #999999;
+}
+.footerline {
+  border-top:  2px solid #aaa;
+  border-clip: 20in;
+  padding: 0.8em 0;
+  margin: 10px 0;
+}
+
+  *{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header{
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+    float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+.logo img{
+  padding-left: 200px;
+  width: 150px;
+  height: auto;
+}
+
+.main{
+  /*max-width: 1200px;*/
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 70px;
+
+}
+
+.button{
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+</style>
+</head>
+<body>
+      <header>
+    <div class="main">
+      <div class="logo">
+        <img src="logo.png">
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Service1.html">services</a></li>
+        <li><a href="Galleryimg.html">Gallery</a></li>
+        <li class="active"><a href="Default.html">About</a></li>
+        <li><a href="foorm.html">Contact</a></li>
+      </ul><br><br>
+      <div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      
+      
+  <h1 class="font-bold">ONE-STOP SOLUTION FOR YOUR CAREER GROWTH</h1>
+    </div>
+	
+</div></div></div></div>
+<div class="bg2">
+	<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+    	
+    	<h4>About E-Learning Platform</h4>
+    	<div class="boxes2"></div>
+  <p style="text-align:justify-all; text-align: left;">Hudson is an initiative of Perfect Plan B with the sole goal to help students achieve their career goals with right coaching, training and placement.
+
+<br>Hudson offers equal opportunities for both learners and trainers to channelize their skills in the right direction. We are on a mission to help everyone Learn, Grow and Become Leaders of tomorrow.
+
+<br>Through our elearning platform, we are offering industry specific online courses designed by industry experts themselves to provide just the knowledge and training that students and professionals need to excel in their career verticals and harness all the possible opportunities to grow.
+
+<br>We are also providing placement consulting post training for the students so that they can get their dream jobs in companies like Sapient, Nagarro, Microsoft, HCL etc.</p></div>
+<div class="col-lg-6">
+<img src="child.png">
+</div></div></div></div></div></div>
+<div class="bg4">
+	<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+    	<div class="price1"><div class="boxes"><h6>MISSION</h6></div>
+        <p>Goodwill is a social<br>enterprice providing<br>individuals with disabilities<br>the opportunity to enhance <br> their lives through
+        	<br>meaningful emloyment.</p></div></div>
+         <div class="col-lg-4">
+        <div class="price1"><div class="boxes"><h6>VISSION</h6></div>
+        <p>Goodwill will be recognized<br>
+        	for excellence in community<br>
+        	leadership,partnerships and <br>the provision of employment<br>
+        	opportunities for individuals<br>with disabilities</p></div></div>
+         <div class="col-lg-4">
+        <div class="price1"><div class="boxes"><h6>VALUES</h6></div>
+        <p>passion for technology<br>
+        Constructive self-criticism<br>
+        Self-improvement<br>
+    Pursuit of Excellence<br>
+Openness and respect<br>
+Integrity and honesty.</p></div></div>
+
+    </div></div></div><br>
+    <br>
+<div class="bg3">
+	<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+    	
+    	<h4>What Distinguishes Us from the crowd</h4>
+    	<div class="boxes2"></div>
+  <p style="text-align:justify-all; font-family: initial;">Perfect eLearning’s goal is very clear. We are in this business to help more and more students achieve their career goals. And to make that happen we have created a hybrid model of online and offline learning so that our students can get just the right guidance which helps them build future proof skill sets.
+
+<br><h6>Benefits of Live Classes Integrated with Online Course</h6>
+
+<br>We provide weekend Live Classes in most of our courses which our students love the most about us. Any student can attend these live classes to clear their doubts and queries directly from our industry experts - Just like an offline class.<br>
+
+<br><h6>24*7 Doubt Clearing</h6>
+<br>Another amazing service that our students love the most is 24*7 dedicated mentor support. Now you do not have to wait for your mentor to come online and address your doubts. With Perfect eLearning real time mentor support just drop your question with your mentor and get it addressed in less than 5 minutes.<br>
+<br>
+<h6>Weekly Quizzes and Assignments</h6>
+
+<br>Assignments not only help us in better understanding of the topics but also help us gain the confidence of achieving certain levels of expertise on the topics. We understand this and that is why we provide weekly assignments to our students so that they can keep an easy check on their learning progress.<br>
+<br>
+<h6>Perks of Working on Live Projects</h6>
+
+<br>With Perfect eLearning you get to work on live projects along with your capstone projects. This helps students get hands-on experience working on live projects and builds a confidence that helps them excel their machine tests and crack interviews easily.<br>
+<br>
+<h6>Free and Paid Internships</h6>
+
+<br>Post course completion, Perfect eLearning offers a free internships program for all students which they can opt to know how exactly industries operate.Any student can crack our internships exams to get paid internships. Right! Anyone can start earning while learning with Perfect eLearning.</p>
+</div></div></div></div>
+</header>
+
+
+<footer class="footer">
+  <div class="container">
+     <div class="row">
+       <div class="col-sm-3">
+ 
+    <h6 style="color: white;font-size:16px;padding-left: 10px;">HUDSON AGILE TECHNOLOGY</h6><br>
+    <h6 style="color: grey; font-size:16px;">Hudson is an initiative of everything with the sole goal to help students achieve their career goals with right coaching, training and placement</h6>
+  </div>
+  <div class="col-sm-3">
+ 
+    <h3 style="font-size:19px;">Quick Links</h3>
+    
+    
+      <a style="text-decoration: none; color: grey; " href="index.html">Home</a><br>
+        <a style="text-decoration: none;color: grey; " href="Service1.html">Services</a><br>
+        <a style="text-decoration: none;color: grey; " href="Galleryimg.html">Gallery</a><br>
+        <a style="text-decoration: none;color: grey; " href="Default.html">About Us</a><br>
+      <a style="text-decoration: none;color: grey; " href="foorm.html">Contact Us</a><br>
+       
+       
+
+  
+  </div>
+  
+
+   <div class="col-sm-3">
+
+ 
+    <h3 style="font-size:19px;">Contact Us</h3>
+    <br>
+    <h5 style="color:grey; font-size:15px;"><i class="fa fa-map-marker"></i>&nbsp;Hudson Agile Ventures Private limited, Rustamjee layout,B- block , whitefield, bengaluru</h5>
+<!-- <style>
+.fa
+</style> -->
+
+ <i class="fa fa-phone" style="color:grey;">&nbsp;+91 6366018699</i>
+
+
+ <br><i class="fa fa-envelope" style="color:grey;">&nbsp;info@hudsonagileventures.com</i>
+
+
+    
+  </div>
+<div class="col-sm-3">
+<h3 style="text-align: center;color: white; font-size:16px;padding-right: 10px;">Connect with Us</h3>
+    <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-youtube"></i></a>&nbsp;&nbsp;
+</div>
+</footer>
+  <footer class="footer1">
+  <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+<p style="color:gray; text-align: center;">Hudson Technologies. © 2009-2020 - All rights Reserved.</p>
+</div></div></div>
+
+ </footer>
+
+</body></html>

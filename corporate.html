@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Corporate training</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <style>
+    #corporate-banner {
+    background-image: linear-gradient(to right,#8360c3,#5d8cad,#32ba93);
+    padding: 120px 0 80px;
+}
+
+.section {
+    padding: 25px 0;
+}
+#corporate-banner h1 {
+    color: #fff;
+    font-size: 32px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+#corporate-banner p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+#corporate-banner p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+@media (min-width: 991px)
+#partners-wrapper h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#partners-wrapper h2 {
+    font-size: 18px;
+    text-align: center;
+}
+@media (min-width: 991px)
+.scrolling-slider {
+    display: block;
+}
+@media (min-width: 991px)
+.top-section-spacing {
+    padding-top: 60px;
+}
+@media (min-width: 991px)
+#partners-wrapper {
+    display: block;
+}
+.scrolling-slider {
+    height: 73px;
+    width: 6500px;
+    margin: 10px auto 0;
+    -webkit-animation: slide_anim 50s linear infinite;
+    animation: slide_anim 50s linear infinite;
+    overflow: hidden;
+    display: none;
+}
+@media (min-width: 991px)
+#partners-wrapper .gl-partners .gl-partners__item {
+    height: 73px;
+    margin: 16px 0;
+    display: inline;
+    padding: 0;
+}
+@media (min-width: 991px)
+#partners-wrapper .gl-partners .gl-partners__item img {
+    height: 48px;
+    padding: 0 27px;
+}
+.section {
+    padding: 25px 0;
+}
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.corporate-heading {
+    font-weight: 400;
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 768px)
+.col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.why-top-companies-prefer {
+    padding: 0;
+    margin: 0;
+}
+.why-top-companies-prefer li {
+    list-style: none;
+    font-size: 15px;
+    padding: 7px 0 7px 25px;
+    color: #4a4a4a;
+    position: relative;
+}
+@media (min-width: 768px)
+.col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.video-thumb {
+    text-align: center;
+}
+.video-thumb a {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.video-thumb a .review-play-btn, .video-thumb a .testimonials-video-link, .video-thumb a .video-play-icon {
+    position: absolute;
+    top: calc(50% - 23px);
+    left: calc(50% - 23px);
+}
+.review-play-btn, .testimonials-video-link, .video-play-icon {
+    display: inline-block;
+    left: 0;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background: url(https://intellipaat.com/wp-content/themes/intellipaat/images/student_review_sprite.svg);
+    background-position: -117px -66px;
+}
+.video-thumb a img {
+    width: 100%;
+    height: 100%;
+}
+.fade:not(.show) {
+    opacity: 0;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+}
+
+.fade {
+    transition: opacity .15s linear;
+}
+@media (min-width: 992px)
+.modal-lg, .modal-xl {
+    max-width: 800px;
+}
+@media (min-width: 576px)
+.modal-dialog-centered {
+    min-height: calc(100% - 3.5rem);
+}
+@media (min-width: 576px)
+.modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+}
+.modal-dialog-centered {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: .5rem;
+    pointer-events: none;
+}
+.video-popup.modal-content {
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+.call-popup .close-call-popup, .video-popup .close-video-popup {
+    background: 0 0;
+    border: none;
+    font-size: 25px;
+    line-height: 16px;
+    vertical-align: middle;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    right: -5px;
+    top: -20px;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+#corporate-banner p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+.m-0 {
+    margin: 0!important;
+}
+.know-more.white {
+    background-color: #fff;
+    color: #7e78b5;
+    background-image: none;
+    border: 1px solid #fff;
+    padding: 8px 25px;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+#quote-carousel {
+     background-image: linear-gradient(to right,#8360c3,#5d8cad,#32ba93);
+    padding-bottom: 70px!important;
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+.section {
+    padding: 25px 0;
+}
+.corporate-heading.white {
+    color: #fff;
+}
+.corporate-heading {
+    font-weight: 400;
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 992px)
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media (min-width: 768px)
+.col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.section {
+    padding: 25px 0;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.corporate-heading {
+    font-weight: 400;
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.text-center {
+    text-align: center!important;
+}
+@media (min-width: 768px)
+.d-md-block {
+    display: block!important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+  .footer {
+  padding: 25px;
+  background-color: black;
+  color: white;
+}
+.footer1 {
+  
+  
+  background: #0b0b0c none repeat center;
+  color: #999999;
+}
+.footerline {
+  border-top:  2px solid #aaa;
+  border-clip: 20in;
+  padding: 0.8em 0;
+  margin: 10px 0;
+}*/
+  </style>
+</head>
+
+<body>
+<section id="corporate-banner" class="section">
+<div class="container">
+<h1 class="mb-3 text-center">Transform Your Work Force</h1>
+<p class="mb-3 text-center">Learn emerging skills quickly with custom curriculum designed as per your needs.</p>
+<p class="text-center m-0">
+<a href="course.html" class="know-more ip-know-more white">Know More</a>
+</p>
+</div>
+</section>
+<br>
+ <div id="partners-wrapper">
+      <h2>Academic Collaboration with World&#39;s leading Universities</h2>
+    <div style="height:90px; overflow: hidden;">
+      <div class="gl-partners scrolling-slider">
+
+
+            <div class="gl-partners__item">
+              <img src="c1.png" alt="Bradesco" title="Bradesco">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c2.png" alt="Sadia" title="Sadia">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c3.png" alt="Tim" title="Tim">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c4.png" alt="Toyota" title="Toyota">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c5.png" alt="Votorantim" title="Votorantim">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c1.png" alt="Bradesco" title="Bradesco">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c2.png" alt="Sadia" title="Sadia">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c3.png" alt="Tim" title="Tim">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c4.png" alt="Toyota" title="Toyota">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c5.png" alt="Votorantim" title="Votorantim">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c1.png" alt="Bradesco" title="Bradesco">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c2.png" alt="Sadia" title="Sadia">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c3.png" alt="Tim" title="Tim">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c4.png" alt="Toyota" title="Toyota">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c5.png" alt="Votorantim" title="Votorantim">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c1.png" alt="Bradesco" title="Bradesco">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c2.png" alt="Sadia" title="Sadia">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c3.png" alt="Tim" title="Tim">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c4.png" alt="Toyota" title="Toyota">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c5.png" alt="Votorantim" title="Votorantim">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c1.png" alt="Bradesco" title="Bradesco">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c2.png" alt="Sadia" title="Sadia">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c3.png" alt="Tim" title="Tim">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c4.png" alt="Toyota" title="Toyota">
+            </div>
+            <div class="gl-partners__item">
+              <img src="c5.png" alt="Votorantim" title="Votorantim">
+            </div>
+      </div>
+    </div>
+  </div>
+<style>#partners-wrapper{display:none}@media (min-width: 991px){#partners-wrapper{display:block}}#partners-wrapper h2{font-size:18px;text-align:center}@media (min-width: 991px){#partners-wrapper h2{font-size:24px;margin-bottom:20px}}@media (min-width: 991px){#partners-wrapper .gl-partners .gl-partners__item{height:73px;margin:16px 0;display:inline;padding:0}}@media (min-width: 991px){#partners-wrapper .gl-partners .gl-partners__item img{height:48px;padding:0 27px}}.scrolling-slider{height:73px;width:6500px;margin:10px auto 0;-webkit-animation:slide_anim 50s linear infinite;animation:slide_anim 50s linear infinite;overflow:hidden;display:none}@media (min-width: 991px){.scrolling-slider{display:block}}@media (min-width: 991px){.scrolling-slider:hover{cursor:pointer;-webkit-animation-play-state:paused;animation-play-state:paused}}@-webkit-keyframes slide_anim{0%{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}100%{-webkit-transform:translate3d(-2200px, 0, 0);transform:translate3d(-2200px, 0, 0)}}@keyframes slide_anim{0%{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}100%{-webkit-transform:translate3d(-2200px, 0, 0);transform:translate3d(-2200px, 0, 0)}}@media (min-width: 991px){#homepage-slider{display:none}}#homepage-slider{overflow-x:hidden}#homepage-slider h2{font-size:24px;margin-bottom:20px;text-align:center;line-height:1.6}#homepage-slider .radio{display:none}#homepage-slider .images{overflow:hidden;top:0;bottom:0;left:0;right:0;width:100%}#homepage-slider .images-inner{width:500%;transition:all 800ms cubic-bezier(0.77, 0, 0.175, 1);transition-timing-function:cubic-bezier(0.77, 0, 0.175, 1)}#homepage-slider .image-slide{width:20%;float:left}#homepage-slider .logo-wrapper{display:flex;flex-wrap:wrap}#homepage-slider .logo-wrapper div{background-size:contain;width:43%;height:80px;margin:0 12px;background-repeat:no-repeat;background-position:center}#homepage-slider .logo-wrapper [data-partner="great-lakes"]{background-size:68%;background-position-x:left}#homepage-slider .logo-wrapper [data-partner="northwestern-university"],#homepage-slider .logo-wrapper [data-partner="srm-institute-of-science-and-technology"]{background-size:80%}#homepage-slider .logo-wrapper [data-partner="iit-madras"]{background-size:90%}#homepage-slider .logo-wrapper [data-partner="pes-university"]{background-size:85%}#homepage-slider #slide1:checked~.images.images-inner{margin-left:0}#homepage-slider #slide2:checked~.images.images-inner{margin-left:-100%}#homepage-slider #slide3:checked~.images.images-inner{margin-left:-200%}
+</style>
+<style>
+
+    @keyframes slide_anim {
+        0%{
+            transform: translate3d(0, 0, 0);
+        }
+        100%{
+            transform: translate3d(-2200px, 0, 0); /* The image width */
+        }
+    }
+
+
+      @keyframes slide {
+          0%, 18.66%    { margin-left: 0; }
+          22.66%, 40.32%    { margin-left: -100%; }
+          44.32%, 62.98%    { margin-left: -200%; }
+          67.98%, 90.64%    { margin-left: -300%; }
+      }
+
+      #homepage-slider.st-slider > #play1:checked ~ .images.images-inner {
+          animation: slide 12300ms infinite;
+      }
+  </style>
+<section id="why-top-companies" class="section">
+<div class="container">
+<h2 class="corporate-heading mb-4">Why top companies prefer Intellipaat</h2>
+<div class="row align-items-center">
+<div class="col-md-7">
+<ul class="why-top-companies-prefer">
+<li>High Engagement and outcome centric Learning</li>
+<li>Customize Curriculum built with industry leaders, for industry leaders</li>
+<li>Hands on exerices with Industry usecases</li>
+<li>Assigments & Project work reviews and feedback from industry SMEs</li>
+<li>Strong reporting to track learning and calculate training ROI for managers</li>
+<li>Pre configured Cloud Labs for practise</li>
+<li>Day 1 production ready upon completion of training</li>
+</ul>
+</div>
+<div class="col-md-5">
+<div class="video-thumb">
+<a class="video-popup-play" href="javascript:void(0);" data-src="https://www.youtube.com/embed/oGElHof2N4I" data-toggle="modal" title="Click here" data-target="#video-popup-corporate">
+<span class="review-play-btn"></span>
+<img width="500" height="300" src="case.png" class="" alt="Review Video" data-lazy-src="https://intellipaat.com/course-image/2020/02/6_yoga.jpg"><noscript><img width="1920" height="1080" src="https://intellipaat.com/course-image/2020/02/6_yoga.jpg" class="" / alt="Review Video"></noscript>
+</a>
+</div>
+<div id="video-popup-corporate" class="modal fade" role="dialog">
+<div class="modal-dialog modal-dialog-centered modal-lg">
+<div class="modal-content video-popup">
+<button type="button" class="close-video-popup" data-dismiss="modal">&times;</button>
+<div class="embed-responsive embed-responsive-16by9"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="programme_library" class="section color-bg">
+<div class="container">
+<h2 class="corporate-heading mb-4">Program Library</h2>
+<div class="programme-library-main row">
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/big-data-analytics-courses/">
+<img width="274" height="155" src="1.png" class="bigdata" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/bigdata.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/bigdata.png" class="bigdata" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+<a href="https://intellipaat.com/course-cat/big-data-analytics-courses/" tabindex="0" title=""><br>
+<h4>Big Data</h4><br>
+<div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/business-intelligence/">
+<img width="274" height="155" src="2.png" class="business_intelligence" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/business_intelligence.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/business_intelligence.png" class="business_intelligence" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+<a href="https://intellipaat.com/course-cat/business-intelligence/" tabindex="0" title=""><br>
+<h4>Business Intelligence</h4><br>
+ <div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/data-science/">
+<img width="274" height="155" src="3.png" class="data_science" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/data_science.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/data_science.png" class="data_science" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+<a href="https://intellipaat.com/course-cat/data-science/" tabindex="0" title=""><br>
+<h4>Data Science</h4><br>
+<div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/cloud-computing-courses/">
+<img width="274" height="155" src="4.png" class="cloud_computing" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/cloud_computing.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/cloud_computing.png" class="cloud_computing" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+<a href="https://intellipaat.com/course-cat/cloud-computing-courses/" tabindex="0" title=""><br>
+<h4>Cloud Computing</h4><br>
+<div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/salesforce/">
+<img width="274" height="155" src="5.png" class="salesforce" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/salesforce.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/salesforce.png" class="salesforce" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+<a href="https://intellipaat.com/course-cat/salesforce/" tabindex="0" title=""><br>
+<h4>Salesforce</h4><br>
+<div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/mobile-development/">
+ <img width="274" height="155" src="6.png" class="mobile_development" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/mobile_development.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/mobile_development.png" class="mobile_development" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+<a href="https://intellipaat.com/course-cat/mobile-development/" tabindex="0" title=""><br>
+<h4>Mobile Development</h4><br>
+<div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/digital-marketing/">
+<img width="274" height="155" src="7.png" class="digital_marketing" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/digital_marketing.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/digital_marketing.png" class="digital_marketing" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+<a href="https://intellipaat.com/course-cat/digital-marketing/" tabindex="0" title=""><br>
+<h4>Digital Marketing</h4><br>
+<div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/database/">
+<img width="274" height="155" src="8.png" class="database" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/database.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/database.png" class="database" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+<a href="https://intellipaat.com/course-cat/database/" tabindex="0" title=""><br>
+<h4>Database</h4><br>
+<div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div><br>
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/testing/">
+<img width="274" height="155" src="9.png" class="testing" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/testing.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/testing.png" class="testing" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+ <a href="https://intellipaat.com/course-cat/testing/" tabindex="0" title=""><br>
+<h4>Testing</h4><br>
+<div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/project-management/">
+<img width="274" height="155" src="2.png" class="project_management" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/project_management.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/project_management.png" class="project_management" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+<a href="https://intellipaat.com/course-cat/project-management/" tabindex="0" title=""><br>
+<h4>Project Management</h4><br>
+<div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="programme-library-wrapper">
+<a class="programme-library-img" href="https://intellipaat.com/course-cat/website-development/">
+<img width="274" height="155" src="3.png" class="webdev" alt="" data-lazy-src="https://intellipaat.com/course-image/2020/02/webdev.png"><noscript><img width="274" height="155" src="https://intellipaat.com/course-image/2020/02/webdev.png" class="webdev" alt=""></noscript>
+</a>
+<div class="programme-library-content">
+<a href="https://intellipaat.com/course-cat/website-development/" tabindex="0" title=""><br>
+<h4>Website Development</h4><br>
+<div class="arrow"><span class="gotopage-arrow"></span></div>
+</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+<footer class="footer">
+  <div class="container">
+     <div class="row">
+       <div class="col-sm-3">
+ 
+    <h6 style="color: white;font-size:16px;padding-left: 10px;">HUDSON AGILE TECHNOLOGY</h6><br>
+    <h6 style="color: grey; font-size:16px;">Hudson is an initiative of everything with the sole goal to help students achieve their career goals with right coaching, training and placement</h6>
+  </div>
+  <div class="col-sm-3">
+ 
+    <h3 style="font-size:19px;">Quick Links</h3>
+    
+    
+      <a style="text-decoration: none; color: grey; " href="index.html">Home</a><br>
+        <a style="text-decoration: none;color: grey; " href="Service1.html">Services</a><br>
+        <a style="text-decoration: none;color: grey; " href="Galleryimg.html">Gallery</a><br>
+        <a style="text-decoration: none;color: grey; " href="Default.html">About Us</a><br>
+      <a style="text-decoration: none;color: grey; " href="foorm.html">Contact Us</a><br>
+       
+       
+
+  
+  </div>
+  
+
+   <div class="col-sm-3">
+
+ 
+    <h3 style="font-size:19px;">Contact Us</h3>
+    <br>
+    <h5 style="color:grey; font-size:15px;"><i class="fa fa-map-marker"></i>&nbsp;Hudson Agile Ventures Private limited, Rustamjee layout,B- block , whitefield, bengaluru</h5>
+
+ <i class="fa fa-phone" style="color:grey;">&nbsp;+91 6366018699</i>
+
+
+ <br><i class="fa fa-envelope" style="color:grey;">&nbsp;info@hudsonagileventures.com</i>
+
+
+    
+  </div>
+<div class="col-sm-3">
+<h3 style="text-align: center;color: white; font-size:16px;padding-right: 10px;">Connect with Us</h3>
+    <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-youtube"></i></a>&nbsp;&nbsp;
+</div>
+</footer>
+  <footer class="footer1">
+  <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+<p style="color:gray; text-align: center;">Hudson Technologies. © 2009-2020 - All rights Reserved.</p>
+</div></div></div>
+
+ </footer>
+</body>
+</html>

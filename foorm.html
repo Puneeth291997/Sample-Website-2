@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SPJIMR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+ <style type="text/css">
+.bg {
+  height: 80%; 
+}
+.pass{
+  padding: 45px ;
+}
+.nav-link {
+ text-decoration: none;
+  color:white;
+  
+}
+.nav{
+  padding-top: 25px;
+padding-right: 170px;
+}
+
+.nav-item:hover {border-bottom: 2px solid blue; 
+
+ }
+.custom-input-text-02 {
+ padding: 0 18px;
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-bottom: 2px solid #d4bfb3;
+    background: none;
+    box-shadow: none;
+    line-height: 36px;
+    color: #6a4e3d;
+    text-align: left;
+    margin: 0;
+    border-radius: 8px;
+    letter-spacing: .5px;
+    font-weight: 600;
+    font-size: 16px;
+     box-sizing: border-box;
+
+}
+.custom-input-text-02 :hover {background-color: transparent; border: 1px solid; border-color: #6a4e3d;}
+
+
+ .form-group textarea{
+ background: transparent;
+  border-top:  transparent;
+  border-bottom: 2px solid #d4bfb3;
+  border-left: 0px solid;
+
+}
+.form-group textarea:hover {background-color: transparent; border: 1px solid; border-color: #6a4e3d;}
+.form-group input{
+ background: transparent;
+  border-top:  transparent;
+  border-bottom: 2px solid #d4bfb3;
+  border-left: 0px solid; 
+}
+.form-group input:hover {background-color: transparent; border: 1px solid; border-color: #6a4e3d;}
+
+.custom-label-01{
+  color: #6a4e3d; 
+}
+
+div h4{
+  padding: 0px;
+  color: #6a4e3d;
+  text-align: center;
+}
+.form-group button {
+  background-color: #6a4e3d;
+    border: none;
+  color: white;
+    border-radius: 12px;
+    width: 110px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    height: 40px;
+    margin: 4px: 2px
+    display: inline-block;
+    
+}
+.form-group button:hover {
+  background-color: #c4b1a7;}
+
+.main{
+  color: white;
+ background:  linear-gradient(89.33deg,#8360c3 -13.85%,#2ebf91 128.15%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+
+.btn {
+  padding-bottom: 10px;
+    color: #d4bfb3;
+    border: 2px solid #d4bfb3;
+    border-radius: 2px;
+    width: 150px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+  }
+  .btn-alt {background-color: transparent;} /* Green */
+.btn-alt:hover {background-color: transparent;}
+.padd{
+  padding-top: 110px;
+  padding-left: 260px;
+padding-bottom: 25px;
+}
+
+ .footer {
+  padding: 25px;
+  background-color: black;
+  color: white;
+}
+.footer1 {
+  
+  
+  background: #0b0b0c none repeat center;
+  color: #999999;
+}
+.footerline {
+  border-top:  2px solid #aaa;
+  border-clip: 20in;
+  padding: 0.8em 0;
+  margin: 10px 0;
+}
+
+  *{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header{
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+    float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+}
+
+.main{
+  /*max-width: 1200px;*/
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 70px;
+
+}
+
+.button{
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+
+</style>
+<body>
+
+      <header>
+    <div class="main">
+      <div class="logo">
+        <img src="logo.png">
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Service1.html">services</a></li>
+        <li><a href="Galleryimg.html">Gallery</a></li>
+        <li><a href="Default.html">About</a></li>
+        <li  class="active"><a href="foorm.html">Contact</a></li>
+      </ul><br><br><br>
+  <div class="padd">
+ <h3>JOIN US</h3>
+</div></div></div>
+<div class="bg">
+  
+<div class="pass">
+  <p>Use your time to learn and to make your future brighter</p>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="immg">
+      <img src="TI.png" style="height: 400px; width: 450px;"></a></div>
+    </div>
+    <div class="col-lg-6">
+      <h4 class="mt-5 mb-4 h4-custom-02">Start Learning !</h4>
+  <form id="TechForm" method="POST">
+         
+         <div class="form-group">
+            <label class="custom-label-01">Your Name (required)</label>
+            <input type="text" name="tech_name" id="tech_name" class="form-control custom-input-text-02" aria-describedby="emailHelp">
+         </div>
+         <div class="form-group">
+            <label class="custom-label-01">Email (required)</label>
+            <input type="email" name="tech_email" id="tech_email" class="form-control custom-input-text-02" aria-describedby="emailHelp">
+         </div>
+         <div class="form-group">
+            <label class="custom-label-01">Your Phone no (required)</label>
+            <input type="tel" name="tech_phone" id="tech_phone" class="form-control custom-input-text-02" aria-describedby="emailHelp">
+         </div>
+         <div class="form-group">
+         <button type="submit" id="custom-button-04 mb-4">Submit</button></div>
+         </form>
+     
+   </div>
+ </div>
+</div>                    
+ </div>
+</header>
+<footer class="footer">
+  <div class="container">
+     <div class="row">
+       <div class="col-sm-3">
+ 
+    <h6 style="color: white;font-size:16px;padding-left: 10px;">HUDSON AGILE TECHNOLOGY</h6><br>
+    <h6 style="color: grey; font-size:16px;">Hudson is an initiative of everything with the sole goal to help students achieve their career goals with right coaching, training and placement</h6>
+  </div>
+  <div class="col-sm-3">
+ 
+    <h3 style="font-size:19px;">Quick Links</h3>
+    
+    
+      <a style="text-decoration: none; color: grey; " href="index.html">Home</a><br>
+        <a style="text-decoration: none;color: grey; " href="Service1.html">Services</a><br>
+        <a style="text-decoration: none;color: grey; " href="Galleryimg.html">Gallery</a><br>
+        <a style="text-decoration: none;color: grey; " href="Default.html">About Us</a><br>
+      <a style="text-decoration: none;color: grey; " href="foorm.html">Contact Us</a><br>
+       
+       
+
+  
+  </div>
+  
+
+   <div class="col-sm-3">
+
+ 
+    <h3 style="font-size:19px;">Contact Us</h3>
+    <br>
+    <h5 style="color:grey; font-size:15px;"><i class="fa fa-map-marker"></i>&nbsp;Hudson Agile Ventures Private limited, Rustamjee layout,B- block , whitefield, bengaluru</h5>
+<!-- <style>
+.fa
+</style> -->
+
+ <i class="fa fa-phone" style="color:grey;">&nbsp;+91 6366018699</i>
+
+
+ <br><i class="fa fa-envelope" style="color:grey;">&nbsp;info@hudsonagileventures.com</i>
+
+
+    
+  </div>
+<div class="col-sm-3">
+<h3 style="text-align: center;color: white; font-size:16px;padding-right: 10px;">Connect with Us</h3>
+    <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-youtube"></i></a>&nbsp;&nbsp;
+</div>
+</footer>
+  <footer class="footer1">
+  <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+<p style="color:gray; text-align: center;">Hudson Technologies. © 2009-2020 - All rights Reserved.</p>
+</div></div></div>
+</footer>
+</body>
+
+</html>

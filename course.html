@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Courses</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style11.css">
+  <style>
+    h2 {
+    font-size: 18px;
+   }
+h4{
+  padding-left: 10px;
+  padding-top: 10px;
+    font-size: 16px;
+}
+p{
+  padding-top: 5px;
+  padding-left: 10px;
+    font-size: 14px;
+}
+.save{
+  border: 1px solid #ccc;
+  border-radius: 2px;
+    border-style: solid;
+  border-width: thin;
+}
+.save:hover{
+   -moz-box-shadow: 1px 1px 3px 3px #ccc;
+      -webkit-box-shadow: 1px 1px 3px 3px #ccc;
+    box-shadow:  1px 1px  3px 3px #ccc;
+}
+.rating-wrapper {
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+.rating-details, .rating-details li {
+    margin: 0;
+    padding-left: 10px;
+    list-style: none;
+}
+.rating {
+    background-color: #f2b04c;
+    color: #fff;
+    font-size: 12px;
+    padding: 0 2px 0 8px;
+    border-radius: 50px;
+}
+.rating-details li {
+    display: inline;
+    font-size: 13px;
+    color: #4f4f4f;
+    padding: 0 4px;
+}
+.full-star {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 0;
+    background-image: url(https://intellipaat.com/wp-content/themes/intellipaat/images/global-sprite.svg?tr=w-180,h-208);
+    background-position: -59px -28px;
+}
+.hours-wrapper {
+    padding: 3px 0 10px;
+}
+.intelli_duration {
+    text-align: right;
+    float: right;
+    position: relative;
+    top: 0;
+    padding-right: 15px;
+}
+
+.intelli_duration, .intelli_students {
+    color: #828282;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.view-all-courses {
+    padding: 8px 30px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 250px;
+    display: inline-block;
+    background: linear-gradient(
+89.92deg
+,#8360c3 .02%,#2e9cbf 99.99%);
+}
+.list-style-view-btn{
+  display: block;
+}
+.btn{
+  color: #fff;
+    background: deepskyblue;
+}
+ .footer {
+  padding: 25px;
+  background-color: black;
+  color: white;
+}
+.footer1 {
+  
+  
+  background: #0b0b0c none repeat center;
+  color: #999999;
+}
+.footerline {
+  border-top:  2px solid #aaa;
+  border-clip: 20in;
+  padding: 0.8em 0;
+  margin: 10px 0;
+}
+    *{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1.jpeg);
+  height: 230vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+    float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+</style>
+</head>
+<body>
+    <header>
+    <div class="main">
+      <div class="logo">
+        <img src="logo.png">
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Service1.html">services</a></li>
+        <li><a href="Galleryimg.html">Gallery</a></li>
+        <li><a href="Default.html">About</a></li>
+        <li><a href="foorm.html">Contact</a></li>
+      </ul>
+    </div>
+<div class="container"><br><br><br>
+  <h2 style="color:white;">Post Graduate Programs</h2>
+ <div class="row">
+<div class="col-sm-4">
+  <div class="save">
+<div class="block_media">
+  <a href="program1.html"></a>
+<img width="348" height="220" src="1.png">
+</div>
+<div class="block_content">
+  <div class="rating-wrapper">
+<ul class="rating-details">
+<li>
+<span class="rating">
+5 <span class="full-star"></span>
+</span>
+</li>
+ <li class="rating-count"  style="color:white;">(507)</li>
+</ul>
+  <a href="program1.html"></a>
+<h4  style="color:white;">Programming in digital marketing</h4>
+<p  style="color:white;">In collaboration with Hardvard business school</p>
+<div class="list-style-value-wrapper">
+<p class="mb-0 mt-4 text-center d-none d-md-block">
+<button onclick="document.location='program1.html'" class="btnn"><b>View more</b></button>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="col-sm-4">
+  <div class="save">
+<div class="block_media">
+  <a href=""></a>
+<img width="348" height="220" src="2.png">
+</div>
+<div class="block_content">
+    <div class="rating-wrapper">
+<ul class="rating-details">
+<li>
+<span class="rating">
+5<span class="full-star"></span>
+</span>
+</li>
+ <li class="rating-count"  style="color:white;">(546)</li>
+</ul>
+  <a href=""></a>
+<h4  style="color:white;">Certification in Big Data Analytics</h4>
+<p  style="color:white;">In collaboration with IBM</p>
+<div class="list-style-value-wrapper">
+<p class="mb-0 mt-4 text-center d-none d-md-block">
+<button onclick="document.location='program1.html'" class="btnn"><b>View more</b></button>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="col-sm-4">
+  <div class="save">
+<div class="block_media">
+  <a href=""></a>
+<img width="348" height="220" src="3.png">
+</div>
+<div class="block_content">
+    <div class="rating-wrapper">
+<ul class="rating-details">
+<li>
+<span class="rating">
+5<span class="full-star"></span>
+</span>
+</li>
+ <li class="rating-count"  style="color:white;">(560)</li>
+</ul>
+  <a href=""></a>
+<h4  style="color:white;">Certification in cloud  & devops</h4>
+<p  style="color:white;">In collaboration with Microsoft</p>
+<div class="list-style-value-wrapper">
+<p class="mb-0 mt-4 text-center d-none d-md-block">
+<button onclick="document.location='program1.html'" class="btnn"><b>View more</b></button>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br><br>
+  <h2  style="color:white;">Master Courses</h2>
+ <div class="row">
+<div class="col-sm-4">
+  <div class="save">
+<div class="block_media">
+  <a href=""></a>
+<img width="348" height="220" src="4.png">
+</div>
+<div class="block_content">
+    <div class="rating-wrapper">
+<ul class="rating-details">
+<li>
+<span class="rating">
+4.8 <span class="full-star"></span>
+</span>
+</li>
+ <li class="rating-count"  style="color:white;">(509)</li>
+</ul>
+  <a href=""></a>
+<h4  style="color:white;">Data science master's course</h4>
+<p  style="color:white;">In collaboration with IBM & microsoft</p>
+</div>
+<div class="hours-wrapper">
+<span class="intelli_students"  style="color:white;">2K+ Learners</span>
+<span class="intelli_duration"  style="color:white;"> 322 Hrs</span>
+<div class="list-style-value-wrapper">
+<p class="mb-0 mt-4 text-center d-none d-md-block">
+<button onclick="document.location='program1.html'" class="btnn"><b>View more</b></button>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="col-sm-4">
+  <div class="save">
+<div class="block_media">
+  <a href=""></a>
+<img width="348" height="220" src="5.png">
+</div>
+<div class="block_content">
+    <div class="rating-wrapper">
+<ul class="rating-details">
+<li>
+<span class="rating">
+5<span class="full-star"></span>
+</span>
+</li>
+ <li class="rating-count"  style="color:white;">(218)</li>
+</ul>
+  <a href=""></a>
+<h4  style="color:white;">Master's in data science program</h4>
+<p  style="color:white;">In collaboration with IBM</p>
+</div>
+<div class="hours-wrapper">
+<span class="intelli_students"  style="color:white;">9K+ Learners</span>
+<span class="intelli_duration"  style="color:white;"> 232 Hrs</span>
+<div class="list-style-value-wrapper">
+<p class="mb-0 mt-4 text-center d-none d-md-block">
+<button onclick="document.location='program1.html'" class="btnn"><b>View more</b></button>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="col-sm-4">
+  <div class="save">
+<div class="block_media">
+  <a href=""></a>
+<img width="348" height="220" src="6.png">
+</div>
+<div class="block_content">
+    <div class="rating-wrapper">
+<ul class="rating-details">
+<li>
+<span class="rating">
+5<span class="full-star"></span>
+</span>
+</li>
+ <li class="rating-count"  style="color:white;">(218)</li>
+</ul>
+  <a href=""></a>
+<h4  style="color:white;">Master's in artificial intelligence</h4>
+<p  style="color:white;">In collaboration with IBM</p>
+</div>
+<div class="hours-wrapper">
+<span class="intelli_students"  style="color:white;">10K+ Learners</span>
+<span class="intelli_duration"  style="color:white;"> 198 Hrs</span>
+<div class="list-style-value-wrapper">
+<p class="mb-0 mt-4 text-center d-none d-md-block">
+<button onclick="document.location='program1.html'" class="btnn"><b>View more</b></button>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br><br>
+  <h2  style="color:white;">Popular Courses</h2>
+ <div class="row">
+<div class="col-sm-4">
+  <div class="save">
+<div class="block_media">
+  <a href=""></a>
+<img width="348" height="220" src="7.png">
+</div>
+<div class="block_content">
+    <div class="rating-wrapper">
+<ul class="rating-details">
+<li>
+<span class="rating">
+5<span class="full-star"></span>
+</span>
+</li>
+ <li class="rating-count"  style="color:white;">(591)</li>
+</ul>
+  <a href=""></a>
+<h4  style="color:white;">Data science in Certification</h4>
+<p  style="color:white;">In collaboration with IBM</p>
+</div>
+<div class="hours-wrapper">
+<span class="intelli_students"  style="color:white;">10K+ Learners</span>
+<span class="intelli_duration"  style="color:white;"> 28 Hrs</span>
+<div class="list-style-value-wrapper">
+<p class="mb-0 mt-4 text-center d-none d-md-block">
+<button onclick="document.location='program1.html'" class="btnn"><b>View more</b></button>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="col-sm-4">
+  <div class="save">
+<div class="block_media">
+  <a href=""></a>
+<img width="348" height="220" src="8.png">
+</div>
+<div class="block_content">
+    <div class="rating-wrapper">
+<ul class="rating-details">
+<li>
+<span class="rating">
+4.8 <span class="full-star"></span>
+</span>
+</li>
+ <li class="rating-count"  style="color:white;">(578)</li>
+</ul>
+  <a href=""></a>
+<h4  style="color:white;">Machine learning in Course</h4>
+<p  style="color:white;">In collaboration with IBM</p>
+</div>
+<div class="hours-wrapper">
+<span class="intelli_students"  style="color:white;">2K+ Learners</span>
+<span class="intelli_duration"  style="color:white;"> 32 Hrs</span>
+<div class="list-style-value-wrapper">
+<p class="mb-0 mt-4 text-center d-none d-md-block">
+<button onclick="document.location='program1.html'" class="btnn"><b>View more</b></button>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div><br>
+<div class="col-sm-4">
+  <div class="save">
+<div class="block_media">
+  <a href=""></a>
+<img width="348" height="220" src="9.png">
+</div>
+<div class="block_content">
+    <div class="rating-wrapper">
+<ul class="rating-details">
+<li>
+<span class="rating">
+4.9<span class="full-star"></span>
+</span>
+</li>
+ <li class="rating-count"  style="color:white;">(334)</li>
+</ul>
+  <a href=""></a>
+<h4  style="color:white;">Artificial intelligence course</h4>
+<p  style="color:white;">In collaboration with IBM</p>
+</div>
+<div class="hours-wrapper">
+<span class="intelli_students"  style="color:white;">2K+ Learners</span>
+<span class="intelli_duration" style="color:white;"> 24 Hrs</span>
+<div class="list-style-value-wrapper">
+<p class="mb-0 mt-4 text-center d-none d-md-block">
+<button onclick="document.location='program1.html'" class="btnn"><b>View more</b></button>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><br><br>
+<div class="clearfix"></div>
+<p class="text-center mt-0 mb-5">
+<a href="corporate.html" class="view-all-courses">View All Courses</a>
+</p>
+</div>
+</header>
+
+
+<footer class="footer">
+  <div class="container">
+     <div class="row">
+       <div class="col-sm-3">
+ 
+    <h6 style="color: white;font-size:16px;padding-left: 10px;">HUDSON AGILE TECHNOLOGY</h6><br>
+    <h6 style="color: grey; font-size:16px;">Hudson is an initiative of everything with the sole goal to help students achieve their career goals with right coaching, training and placement</h6>
+  </div>
+  <div class="col-sm-3">
+ 
+    <h3 style="font-size:19px;">Quick Links</h3>
+    
+    
+      <a style="text-decoration: none; color: grey; " href="index.html">Home</a><br>
+        <a style="text-decoration: none;color: grey; " href="Service1.html">Services</a><br>
+        <a style="text-decoration: none;color: grey; " href="Galleryimg.html">Gallery</a><br>
+        <a style="text-decoration: none;color: grey; " href="Default.html">About Us</a><br>
+      <a style="text-decoration: none;color: grey; " href="foorm.html">Contact Us</a><br>
+       
+       
+
+  
+  </div>
+  
+
+   <div class="col-sm-3">
+
+ 
+    <h3 style="font-size:19px;">Contact Us</h3>
+    <br>
+    <h5 style="color:grey; font-size:15px;"><i class="fa fa-map-marker"></i>&nbsp;Hudson Agile Ventures Private limited, Rustamjee layout,B- block , whitefield, bengaluru</h5>
+<!-- <style>
+.fa
+</style> -->
+
+ <i class="fa fa-phone" style="color:grey;">&nbsp;+91 6366018699</i>
+
+
+ <br><i class="fa fa-envelope" style="color:grey;">&nbsp;info@hudsonagileventures.com</i>
+
+
+    
+  </div>
+<div class="col-sm-3">
+<h3 style="text-align: center;color: white; font-size:16px;padding-right: 10px;">Connect with Us</h3>
+    <br>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+ <a href="#"><i class="fa fa-youtube"></i></a>&nbsp;&nbsp;
+</div>
+</footer>
+  <footer class="footer1">
+  <div class="container">
+     <div class="row">
+       <div class="col-sm-12">
+<p style="color:gray; text-align: center;">Hudson Technologies. © 2009-2020 - All rights Reserved.</p>
+</div></div></div>
+
+ </footer>
+</body>
+</html>
